@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Mahindra</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        
+        <div>
+            <div class="slide">
+                <img src="img/imagem1.png" alt="Imagem 1">
+                <button class="prev" onclick="previousSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="slide">
+                <img src="img/imagem2.png" alt="Imagem 2">
+                <button class="prev" onclick="previousSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="slide">
+                <img src="img/imagem3.png" alt="Imagem 3">
+                <button class="prev" onclick="previousSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A Mahindra é líder em corridas Formula E.</p>
+        <button id="sobrebotao">Saiba mais</button>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <form id="contatoform">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahindra. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
